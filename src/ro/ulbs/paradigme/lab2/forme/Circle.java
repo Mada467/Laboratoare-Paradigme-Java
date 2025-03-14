@@ -1,14 +1,14 @@
 package ro.ulbs.paradigme.lab2.forme;
 
-class circle extends Form {
+class Circle extends Form {
     private float radius;
 
-    public circle() {
+    public Circle() {
         super();
         this.radius = 0;
     }
 
-    public circle(String color, float radius) {
+    public Circle(String color, float radius) {
         super(color);
         this.radius = radius;
     }

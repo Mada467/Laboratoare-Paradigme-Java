@@ -1,14 +1,14 @@
 package ro.ulbs.paradigme.lab2.forme;
 
-class square extends Form {
+class Square extends Form {
     private float side;
 
-    public square() {
+    public Square() {
         super();
         this.side = 0;
     }
 
-    public square(String color, float side) {
+    public Square(String color, float side) {
         super(color);
         this.side = side;
     }

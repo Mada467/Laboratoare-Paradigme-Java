@@ -1,15 +1,15 @@
 package ro.ulbs.paradigme.lab2.forme;
 
-class triangle extends Form {
+class Triangle extends Form {
     private float height, base;
 
-    public triangle() {
+    public Triangle() {
         super();
         this.height = 0;
         this.base = 0;
     }
 
-    public triangle(String color, float height, float base) {
+    public Triangle(String color, float height, float base) {
         super(color);
         this.height = height;
         this.base = base;
