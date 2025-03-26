@@ -8,7 +8,7 @@ public class Main {
         Circle circle = new Circle("green", 7);
         Square square = new Square("yellow", 4);
 
-          System.out.println(defaultForm);
+        System.out.println(defaultForm);
         System.out.println("Area: " + defaultForm.getArea());
 
         System.out.println(redForm);
@@ -22,7 +22,8 @@ public class Main {
 
         System.out.println(square);
         System.out.println("Area: " + square.getArea());
+
+        // Afișăm numărul total de instanțe create
+        System.out.println("Total forms created: " + Form.getCounter());
     }
 }
-
-
