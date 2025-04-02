@@ -20,7 +20,7 @@ public class Application {
             e.printStackTrace();
         }
 
-        // Reîncepem citirea fișierului pentru partea b)
+        // Reîncepem citirea fișierului pentru partea b
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFile));
              BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile, true))) { // true pentru append
 
