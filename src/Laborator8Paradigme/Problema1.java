@@ -13,7 +13,7 @@ import java.io.OutputStream;
 public class Problema1 {
     public static void main(String[] args) {
         Workbook wb = new HSSFWorkbook();
-        Sheet sheet = wb.createSheet("new sheet");
+        Sheet sheet = wb.createSheet(" new sheet");
         Row row = sheet.createRow(0);
         row.createCell(0).setCellValue("Nr crt");
         row.createCell(1).setCellValue("Nume");
@@ -56,6 +56,8 @@ public class Problema1 {
         row.createCell(3).setCellValue("8");
         row.createCell(4).setCellValue("8");
         row.createCell(5).setCellValue("9");
+
+
 
 // Write the output to a file
         try (OutputStream fileOut = new FileOutputStream("workbook.xls")) {
