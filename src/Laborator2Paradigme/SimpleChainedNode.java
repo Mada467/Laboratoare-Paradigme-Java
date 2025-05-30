@@ -1,14 +1,12 @@
-package ro.ulbs.paradigme.lab2.simplechained;
-
-import ro.ulbs.paradigme.lab2.api.Node;
+package Laborator2Paradigme;
 
 public class SimpleChainedNode implements Node {
     private int value;
-    private SimpleChainedNode next;
+    private SimpleChainedNode nextNode;
 
     public SimpleChainedNode(int value) {
         this.value = value;
-        this.next = null;
+        this.nextNode = null;
     }
 
     @Override
@@ -21,11 +19,11 @@ public class SimpleChainedNode implements Node {
         this.value = value;
     }
 
-    public SimpleChainedNode getNextNode() {
-        return next;
+    public void setNextNode(SimpleChainedNode nextNode) {
+        this.nextNode = nextNode;
     }
 
-    public void setNextNode(SimpleChainedNode next) {
-        this.next = next;
+    public SimpleChainedNode getNextNode() {
+        return nextNode;
     }
 }

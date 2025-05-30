@@ -1,4 +1,5 @@
-package ro.ulbs.paradigme.lab2.api;
+package Laborator2Paradigme;
+
 
 public interface Node {
     int getValue();

@@ -1,6 +1,9 @@
-package ro.ulbs.paradigme.lab2.forme;
+package Laborator2Paradigme.FormeGeometrice;
 
-class Square extends Form {
+
+
+// Clasa Square - moștenește din Form
+public class Square extends Form {
     private float side;
 
     public Square() {
@@ -8,7 +11,7 @@ class Square extends Form {
         this.side = 0;
     }
 
-    public Square(String color, float side) {
+    public Square(float side, String color) {
         super(color);
         this.side = side;
     }
@@ -20,6 +23,6 @@ class Square extends Form {
 
     @Override
     public String toString() {
-        return super.toString() + ", Square with side " + side;
+        return super.toString() + " and is a square with side=" + side;
     }
 }

@@ -1,14 +1,17 @@
-package ro.ulbs.paradigme.lab2.forme;
+package Laborator2Paradigme.FormeGeometrice;
 
-class Circle extends Form {
-    private float radius;
+
+
+// Clasa Circle - moștenește din Form
+public class Circle extends Form {
+    private float radius; // raza
 
     public Circle() {
         super();
         this.radius = 0;
     }
 
-    public Circle(String color, float radius) {
+    public Circle(float radius, String color) {
         super(color);
         this.radius = radius;
     }
@@ -20,6 +23,6 @@ class Circle extends Form {
 
     @Override
     public String toString() {
-        return super.toString() + ", Circle with radius " + radius;
+        return super.toString() + " and is a circle with radius=" + radius;
     }
 }
